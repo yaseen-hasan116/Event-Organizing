@@ -187,7 +187,6 @@ a{
     #nav_bar {
         flex-direction: row;
         gap: 0.5rem;
-        margin-bottom: 0;
     }
 
     .navbar_content {
