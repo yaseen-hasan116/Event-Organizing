@@ -363,6 +363,7 @@ img{
 
 @media (max-width: 768px) {
     #video_container {
+        margin-bottom : -30px;
         height: 50vh;
     }
 
@@ -414,6 +415,7 @@ img{
         font-size: 0.30rem;
         font-weight: 600;
         min-width: 25ch;
+        margin-left: -30px;
         transform: translateX(-65%);
     }
 
@@ -425,6 +427,10 @@ img{
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    #video_container {
+        margin-bottom : -30px;
+    }
+
     #iframe_video {
         left: -5%;
         width: 110%;
@@ -459,7 +465,7 @@ img{
         font-size: 0.30rem;
         font-weight: 600;
         min-width: 20ch;
-        margin-left: 0;
+        margin-left: -30px;
     }
 
 
@@ -468,6 +474,7 @@ img{
 
 @media (min-width: 1025px) {
     #video_container {
+        margin-bottom: -30px;
         height: 100vh;
     }
 
